@@ -18,6 +18,6 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to login page (adjust path as needed)
-header('Location: login.php');
+header('Location: ../index.php');
 exit();
 ?>
