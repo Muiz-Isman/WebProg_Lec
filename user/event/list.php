@@ -60,6 +60,7 @@ $events = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html>
 <head>
     <title>Available Events - Event Registration System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <h1>Available Events</h1>
@@ -135,4 +136,5 @@ $events = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <p>No events found.</p>
     <?php endif; ?>
 </body>
+
 </html>
